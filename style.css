@@ -75,18 +75,6 @@
     font-family: century;
 }
 
-/*----styling af 1 section, knap----*/
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color:#E0D9B8;
-    border: 1px solid #CA900A;
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #CA900A;
-    position: relative;
-    cursor: pointer;
-}
 
 /*----styling af 2 section, om mig----*/
 .om-mig{
@@ -336,20 +324,6 @@ width: 100%;
   color:#E0D9B8;
   font-family: century;
 }
-
-/*----styling af 1 section, knap----*/
-.hero-btn{
-  display: inline-block;
-  text-decoration: none;
-  color:#E0D9B8;
-  border: 1px solid #CA900A;
-  padding: 10px 20px;
-  font-size: 30px;
-  background-color: #CA900A;
-  position: relative;
-  cursor: pointer;
-}
-
 
 /*----styling af 2 section, om mig----*/
 .om-mig{
@@ -635,19 +609,6 @@ width: 100%;
   font-size: 35px;
   color:#E0D9B8;
   font-family: century;
-}
-
-/*----styling af 1 section, knap----*/
-.hero-btn{
-  display: inline-block;
-  text-decoration: none;
-  color:#E0D9B8;
-  border: 1px solid #CA900A;
-  padding: 10px 20px;
-  font-size: 25px;
-  background-color: #CA900A;
-  position: relative;
-  cursor: pointer;
 }
 
 
