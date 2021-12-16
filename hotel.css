@@ -77,6 +77,8 @@
         line-height: 20px;
     }
 
+
+    /*Start på opgave beskrivelse section*/
     .beskrivelse{
         text-align: center;
     }
@@ -100,18 +102,19 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+/* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    .beskrivelse img{
+      width: 100%;
+      margin-top: -15%;
+}
 
+
+/*start på styling af udvikling section*/
     .udvikling{
         text-align: center;
         margin-top: -10%;
     }
 
-    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
-    .beskrivelse img{
-        width: 100%;
-        margin-top: -15%;
-    }
-    
     .udvikling h2{
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
@@ -160,20 +163,146 @@
         cursor: pointer;
     }
 
+/*Start af styling for Happy Feet siden*/
+    .happyfeet{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .info{ 
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .happyfeet h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+    }
+
+    .happyfeet h3{
+        font-size: 11px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .billeder{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .tlf{
+        width: 50%;
+        margin-bottom: -2%;
+        margin-top: -2%;
+    }
+
+    .mac{
+        width: 100%;
+        margin-bottom: -2%;
+        margin-top: -2%;
+    }
+
+    .ipad{
+      width: 50%;
+      margin-bottom: -2%;
+      margin-top: -2%;
+    }
+
+
+/*Start på opgave beskrivelse section*/
+    .happy-beskrivelse{
+        text-align: center;
+    }
+
+    .happy-beskrivelse h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .happy-beskrivelse h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .happy-beskrivelse p{
+        font-size: 15px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+/*start på styling af proces section til happy feet*/
+
+.happy-udvikling{
+    text-align: center;
+}
+
+.happy-udvikling h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.happy-udvikling p{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.webshopen{
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+.webshopto{
+    width: 60%;
+}
+
+.webshop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #2E2D29;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .footer a{
+    display: inline;
+    color: #E0D9B8;
+  }
+  
+  ul{
+    list-style-type: none;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  
+  li{
+    margin-top: 10px;
+  
+  }
+
 }
 
 @media screen and (max-width: 2050px) and (min-width:481px) {
     body {
       background-color: #F3EFE9;
-    }
-      body {
-      background-color: #F3EFE9;
       margin: 50px;
-      width: 90%;
-      border: 4px solid #CA900A;
     }
-
-
+     
     /*----styling af navigationsbar----*/
     nav{
         display: flex;
@@ -345,6 +474,149 @@
         cursor: pointer;
         margin-bottom: 2%;
     }
+
+
+/*Start af styling for Happy Feet siden*/
+.happyfeet{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.info{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.happyfeet h1{
+    font-size: 30px;
+    font-family: century;
+    color: #CA900A;
+    text-transform: uppercase;
+}
+
+.happyfeet h3{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.billeder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.tlf{
+    width: 250px;
+    height: 450px;
+    margin-bottom: -15%;
+}
+
+.mac{
+    width: 750px;
+    height: 550px;
+    margin-bottom: -15%;
+}
+
+.ipad{
+  width: 250px;
+  height: 450px;
+  margin-bottom: -15%;
+}
+
+
+/*Start på opgave beskrivelse section*/
+.happy-beskrivelse{
+    text-align: center;
+}
+
+.happy-beskrivelse h1{
+    font-size: 25px;
+    font-family: century;
+    color: #CA900A;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+.happy-beskrivelse h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.happy-beskrivelse p{
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    margin: -3%;
+}
+
+
+/*start på styling af proces section til happy feet*/
+
+.happy-udvikling{
+text-align: center;
+}
+
+/* - margin er sat for at afstanden mellem overskrift og brødtekst skal være det samme som sectionen overfor*/
+.happy-udvikling h2{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: -2%;
+}
+
+/*margin sørger for at teksen snøvre sig ind fra begge sider */
+.happy-udvikling p{
+font-size: 17px;
+line-height: 25px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 5%;
+}
+
+.webshopen{
+width: 40%;
+}
+
+.webshopto{
+width: 40%;
+}
+
+/* padding bottom er endnu engag sat for at lave noget afstand mellem billederne og teksten nedenunder*/
+.webshop{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding-bottom: 3%;
+}
+
+.footer{
+    background-color: #2E2D29;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    
+    .footer a{
+    display: inline;
+    color: #E0D9B8;
+    }
+    
+    .footer ul{
+    list-style-type: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    li{
+    margin-top: 10px;
+    }
+
 }
 
 
