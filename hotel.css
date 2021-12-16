@@ -1,0 +1,336 @@
+@media screen and (max-width: 450px)  {
+    body {
+      background-color: #F3EFE9;
+    }
+
+    /*----styling af navigationsbar----*/
+     nav{
+        display: flex;
+        padding: 1% 3%;
+        justify-content:space-between ;
+        align-items: center ;
+    }
+
+    .nav-links {
+        flex: 1;
+        text-align:center; 
+    }   
+
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px 7px ;
+        position: center;
+    }
+
+    .nav-links ul li a{
+        color:#CA900A;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .nav-links ul li::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: #CA900A;
+        display: block;
+        margin: auto;
+        transition: o,1s;
+    }
+    
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+     
+    /*styling af info sectionen, at teksten skal flexe*/
+    .forside{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    
+    .info{ 
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .forside h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+    }
+
+    .forside h3{
+        font-size: 11px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .forside img{
+        width: 75%;
+    }
+
+   
+    .forside p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+    }
+
+    .beskrivelse{
+        text-align: center;
+    }
+
+    .beskrivelse h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }
+
+    .beskrivelse h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .beskrivelse p{
+        font-size: 15px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .udvikling{
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    .beskrivelse img{
+        width: 100%;
+        margin-top: -15%;
+    }
+    
+    .udvikling h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .udvikling p{
+        font-size: 15px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    .fotoshop{
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .logo{
+        width: 100%;
+        margin-top: -10%;
+        margin-bottom: -30%;
+        margin-left: 5%;
+    }
+
+    .se-her{
+        display: inline-block;
+        text-decoration: none;
+        color:#000000;
+        border: 3px solid #CA900A;
+        background-color: #CA900A;
+        padding: 10px 20px;
+        font-size: 15px;
+        position: relative;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 2050px)  {
+    body {
+      background-color: #F3EFE9;
+    }
+
+
+    /*----styling af navigationsbar----*/
+    nav{
+        display: flex;
+        padding: 1% 3%;
+        justify-content:space-between ;
+        align-items: center ;
+    }
+
+    .nav-links {
+        flex: 1;
+        text-align:right; 
+    }   
+
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px 7px ;
+        position: center;
+    }
+
+    .nav-links ul li a{
+        color:#CA900A;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .nav-links ul li::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: #CA900A;
+        display: block;
+        margin: auto;
+        transition: o,1s;
+    }
+    
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+     
+    /*styling af info sectionen, at teksten skal flexe*/
+    .forside{
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    .info{ 
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 3%;
+    }
+
+    .forside h1{
+        font-size: 30px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+    }
+
+    .forside h3{
+        font-size: 15px;
+        line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .forside img{
+        width: 40%;
+    }
+
+    .room{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+   
+    .forside p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        margin: 5%;
+        padding: 5%;
+        margin-top: -2%;
+    }
+
+    .beskrivelse{
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    .beskrivelse h1{
+        font-size: 25px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+
+    }
+
+    .beskrivelse h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .beskrivelse p{
+        font-size: 17px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        padding: 5%;
+        margin-top: -5%;
+        margin-bottom: -2%;
+    }
+
+
+    .udvikling{
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    .beskrivelse img{
+        width: 50%;
+        margin-top: -10%;
+    }
+    
+    .udvikling h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -5%;
+    }
+
+    .udvikling p{
+        font-size: 17px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        padding: 5%;
+        margin-bottom: -2%;
+        margin-top: 2%;
+    }
+
+    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    .fotoshop{
+        width: 50%;
+        
+    }
+
+    .logo{
+        width: 50%;
+        margin-top: -10%;
+        margin-bottom: -15%;
+        margin-left: 5%;
+    }
+
+    .se-her{
+        display: inline-block;
+        text-decoration: none;
+        color:#000000;
+        border: 3px solid #CA900A;
+        background-color: #CA900A;
+        padding: 10px 20px;
+        font-size: 15px;
+        position: relative;
+        cursor: pointer;
+    }
+}
+
+
