@@ -2,7 +2,7 @@
     body {
       background-color: #F3EFE9;
     }
-
+    
     /*----styling af navigationsbar----*/
      nav{
         display: flex;
@@ -44,45 +44,52 @@
     .nav-links ul li:hover::after{
         width: 100%;
     }
-     
-    /*styling af info sectionen, at teksten skal flexe*/
+
+
+    
+    /*Start på styling af Hotel Alien side*/
+
+    /*styling af hele forside section, alt indholdet skal stå i midten og dens afstand mellem næste section skal være 10%*/
     .forside{
         text-align: center;
         margin-bottom: 10%;
     }
-    
-    .info{ 
-        font-size: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
 
+    /*Styling af overskrift Hotel Alien*/
     .forside h1{
         font-size: 20px;
         font-family: century;
         color: #CA900A;
         text-transform: uppercase;
     }
+    
+    /*Styling af tekst med årgang, service og kunde, hvordan de skal placeres og flexe*/
+    .info{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
+    /*Styling på selve teksten med årgang, sevice og kunde, alt fra hvilke skrift str, til font family*/
     .forside h3{
-        font-size: 11px;
+        font-size: 12px;
         line-height: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
    
+    /*Styling af den korte tekst om at hotel alien har vundet pris*/
     .forside p{
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 20px;
     }
 
-
-    /*Start på opgave beskrivelse section*/
+    /*Start på opgave beskrivelse section og at hele section skal stå i midten*/
     .beskrivelse{
         text-align: center;
     }
 
+    /*Styling af overskriften hvor der står "processen"*/
     .beskrivelse h1{
         font-size: 20px;
         font-family: century;
@@ -91,25 +98,27 @@
         margin-bottom: 5%;
     }
 
+    /*Styling af under overskrifterne*/
     .beskrivelse h2{
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /*Styling på brødteksten*/
     .beskrivelse p{
         font-size: 15px;
         line-height: 25px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-/* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
     .beskrivelse img{
       width: 100%;
       margin-top: -15%;
-}
+    }   
 
 
-/*start på styling af udvikling section*/
+    /*start på styling af udvikling section margin top -10% så sectionen kommer tættere på den forrige section*/
     .udvikling{
         text-align: center;
         margin-top: -10%;
@@ -126,13 +135,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
+    /* margin top rykker photoshop billedet længere op mod teksten, så der ikke er meget afstand*/
     .fotoshop{
-        width: 80%;
+        width: 75%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
+    /*Styling af Hotel Alien logo, margin left så den står i midten af siden, og margin top/ margin bottom så billedet ikke er langt fra teksterne.*/
     .logo{
         width: 90%;
         margin-top: -10%;
@@ -140,40 +150,38 @@
         margin-left: 5%;
     }
 
+    /* Styling af billederne fra side jeg har kodet i hotel Alien*/
     .room img{
         width: 45%;
     }
 
+    /*Sørger for at billederne står ved siden af hianden ved hjælp af flex*/
     .room{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
     }
 
+    /*display - Inline-block= Knappen er på sin egen linje og ikke på billederne. - Text decoration fjerner stregen fra se her.*/
     .se-her{
         display: inline-block;
         text-decoration: none;
         color:#000000;
-        border: 3px solid #CA900A;
         background-color: #CA900A;
-        padding: 10px 20px;
+        padding: 12px 20px;
         font-size: 15px;
         position: relative;
-        cursor: pointer;
+        margin-bottom: 5%;
     }
+    /*Margin bottom står for afstanden mellem footer og klik button*/
 
-/*Start af styling for Happy Feet siden*/
+
+
+    /*Start af styling for Happy Feet siden*/
     .happyfeet{
         text-align: center;
         margin-bottom: 10%;
-    }
-
-    .info{ 
-        font-size: 15px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
     }
 
     .happyfeet h1{
@@ -184,8 +192,35 @@
     }
 
     .happyfeet h3{
-        font-size: 11px;
+        font-size: 12px;
         line-height: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+/*Start på opgave beskrivelse section*/
+    .happy-beskrivelse{
+        text-align: center;
+    }
+
+    .happy-beskrivelse h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+        margin-top: -3%;
+    }
+
+    .happy-beskrivelse h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .happy-beskrivelse p{
+        font-size: 15px;
+        line-height: 25px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -213,71 +248,44 @@
       margin-top: -2%;
     }
 
+/*start på styling af proces section til happy feet*/
 
-/*Start på opgave beskrivelse section*/
-    .happy-beskrivelse{
+    .happy-udvikling{
         text-align: center;
     }
 
-    .happy-beskrivelse h1{
-        font-size: 20px;
-        font-family: century;
-        color: #CA900A;
-        text-transform: uppercase;
-        margin-bottom: 5%;
-    }
-
-    .happy-beskrivelse h2{
+    .happy-udvikling h2{
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .happy-beskrivelse p{
+    .happy-udvikling p{
         font-size: 15px;
         line-height: 25px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .webshopen{
+        width: 60%;
+        margin-bottom: 5px;
+    }
 
-/*start på styling af proces section til happy feet*/
+    .webshopto{
+        width: 60%;
+    }
 
-.happy-udvikling{
-    text-align: center;
-}
+    .webshop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
-.happy-udvikling h2{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.happy-udvikling p{
-    font-size: 15px;
-    line-height: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.webshopen{
-    width: 60%;
-    margin-bottom: 5px;
-}
-
-.webshopto{
-    width: 60%;
-}
-
-.webshop{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-footer{
-    background-color: #2E2D29;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  
-  }
+    footer{
+        background-color: #2E2D29;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
   
   .footer a{
     display: inline;
@@ -286,7 +294,7 @@ footer{
   
   ul{
     list-style-type: none;
-    font-size: 17px;
+    font-size: 12px;
     text-transform: uppercase;
   }
   
@@ -301,6 +309,32 @@ footer{
     body {
       background-color: #F3EFE9;
       margin: 50px;
+    }
+
+     /*min hv height er styling af billedets størrelse,sørger for at hele billedet passer til forsiden*/
+    .hotel{
+        min-height: 70vh;
+        width: 100%;
+        background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(fotoshop.jpg)
+        ;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hotelalien{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+        text-align: center;
+    }
+
+    .hotelalien h1 {
+        font-size: 45px;
+        text-transform: uppercase;
+        margin: 5px 0 15px ;
+        color: #CA900A;
+        font-family: century;
     }
      
     /*----styling af navigationsbar----*/
@@ -326,7 +360,7 @@ footer{
     .nav-links ul li a{
         color:#CA900A;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
     }
@@ -477,144 +511,162 @@ footer{
 
 
 /*Start af styling for Happy Feet siden*/
-.happyfeet{
-    text-align: center;
-    margin-bottom: 10%;
-}
 
-.info{ 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+    .happy{
+        min-height: 85vh;
+        width: 100%;
+        background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(happyforside.jpeg)
+        ;
+        background-position: center;
+        background-size: cover;
+    }
 
-.happyfeet h1{
-    font-size: 30px;
-    font-family: century;
-    color: #CA900A;
-    text-transform: uppercase;
-}
+    /*Styling af overskriftens placering ovenpå cover billedet*/
+    .happyh1{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+        text-align: center;
+    }
 
-.happyfeet h3{
-    font-size: 15px;
-    line-height: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.billeder{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    text-align: center;
-}
-
-.tlf{
-    width: 250px;
-    height: 450px;
-    margin-bottom: -15%;
-}
-
-.mac{
-    width: 750px;
-    height: 550px;
-    margin-bottom: -15%;
-}
-
-.ipad{
-  width: 250px;
-  height: 450px;
-  margin-bottom: -15%;
-}
+    /*Styling af Happy Feet, font family, skriftstørrelse mm.*/
+    .happyh1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 5px 0 15px ;
+        color: #CA900A;
+        font-family: century;
+    }
 
 
-/*Start på opgave beskrivelse section*/
-.happy-beskrivelse{
-    text-align: center;
-}
+    /*Stylingen af de 3 tekstbox under billedet - Årgang, service og kunde teksten.*/
+    .info{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
 
-.happy-beskrivelse h1{
-    font-size: 25px;
-    font-family: century;
-    color: #CA900A;
-    text-transform: uppercase;
-    margin-bottom: 5%;
-}
+    /*Start på opgave beskrivelse section*/
+    .happy-beskrivelse{
+        text-align: center;
+    }
 
-.happy-beskrivelse h2{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    .happy-beskrivelse h1{
+        font-size: 25px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 3%;
+    }
 
-.happy-beskrivelse p{
-    font-size: 17px;
-    line-height: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5%;
-    margin: -3%;
-}
+    .happy-beskrivelse h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -2%;
+    }
 
+    .happy-beskrivelse p{
+        font-size: 17px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5%;
+        margin: -3%;
+    }
 
-/*start på styling af proces section til happy feet*/
+    .billeder{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-bottom: 7%;
+    }
 
-.happy-udvikling{
-text-align: center;
-}
+    /*Uden margin top, stod billederne ikke samme sted på rækken, margin top er derfor sat så billederne er på en lige række*/
+    .tlf{
+        width: 200px;
+        height: 350px;
+        margin-bottom: -15%;
+        margin-top: 4%;
+    }
 
-/* - margin er sat for at afstanden mellem overskrift og brødtekst skal være det samme som sectionen overfor*/
-.happy-udvikling h2{
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-margin-bottom: -2%;
-}
+    .mac{
+        width: 850px;
+        height: 650px;
+        margin-bottom: -15%;
+        margin-top: -5%;
+    }
 
-/*margin sørger for at teksen snøvre sig ind fra begge sider */
-.happy-udvikling p{
-font-size: 17px;
-line-height: 25px;
-font-family: Arial, Helvetica, sans-serif;
-margin: 5%;
-}
+    .ipad{
+        width: 200px;
+        height: 350px;
+        margin-bottom: -15%;
+        margin-top: 4%;
+    }
 
-.webshopen{
-width: 40%;
-}
+    /*start på styling af proces section til happy feet*/
+    .happy-udvikling{
+        text-align: center;
+    }
 
-.webshopto{
-width: 40%;
-}
+    /* - margin er sat for at afstanden mellem overskrift og brødtekst skal være det samme som sectionen overfor*/
+    .happy-udvikling h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -3%;
+    }
 
-/* padding bottom er endnu engag sat for at lave noget afstand mellem billederne og teksten nedenunder*/
-.webshop{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-padding-bottom: 3%;
-}
+    /*margin sørger for at teksen snøvre sig ind fra begge sider */
+    .happy-udvikling p{
+        font-size: 17px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+        margin-bottom: 3%;
+    }
 
-.footer{
-    background-color: #2E2D29;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    /* Her har jeg sat to billeder at den side jeg fik kodet, derfor er de kaldt en og to - som står for billede 1 og billede 2*/
+    .webshopen{
+        width: 40%;
+    }
+
+    .webshopto{
+        width: 40%;
+    }
+
+    /* padding bottom er endnu engag sat for at lave noget afstand mellem billederne og teksten nedenunder*/
+    .webshop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 3%;
+    }
+
+    .footer{
+        background-color: #2E2D29;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     
     .footer a{
-    display: inline;
-    color: #E0D9B8;
+        display: inline;
+        color: #E0D9B8;
     }
     
     .footer ul{
-    list-style-type: none;
-    font-size: 15px;
-    text-transform: uppercase;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+        list-style-type: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     
     li{
-    margin-top: 10px;
+        margin-top: 10px;
     }
 
 }
