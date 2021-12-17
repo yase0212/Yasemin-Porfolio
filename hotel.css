@@ -287,57 +287,32 @@
         padding-bottom: 5px;
     }
   
-  .footer a{
-    display: inline;
-    color: #E0D9B8;
-  }
+    .footer a{
+        display: inline;
+        color: #E0D9B8;
+    }
   
-  ul{
-    list-style-type: none;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
+     ul{
+        list-style-type: none;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
   
-  li{
-    margin-top: 10px;
-  
-  }
+    li{
+        margin-top: 10px;
+     }
 
 }
+
 
 @media screen and (max-width: 2050px) and (min-width:481px) {
     body {
       background-color: #F3EFE9;
-      margin: 50px;
     }
 
-     /*min hv height er styling af billedets størrelse,sørger for at hele billedet passer til forsiden*/
-    .hotel{
-        min-height: 70vh;
-        width: 100%;
-        background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(fotoshop.jpg)
-        ;
-        background-position: center;
-        background-size: cover;
-    }
+    /*Start på styling af hotel Alien på desktop version*/
 
-    .hotelalien{
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform:translate(-50%,-50%) ;
-        text-align: center;
-    }
-
-    .hotelalien h1 {
-        font-size: 45px;
-        text-transform: uppercase;
-        margin: 5px 0 15px ;
-        color: #CA900A;
-        font-family: century;
-    }
-     
-    /*----styling af navigationsbar----*/
+     /*----styling af navigationsbar----*/
     nav{
         display: flex;
         padding: 1% 3%;
@@ -378,21 +353,23 @@
     .nav-links ul li:hover::after{
         width: 100%;
     }
-     
+
+ 
     /*styling af info sectionen, at teksten skal flexe*/
     .forside{
         margin-bottom: 10%;
         text-align: center;
     }
     
+    /*Styling af tekst med årgang, kunde og service - Sørger for at de står på samme linje ved at bruge flex*/
     .info{ 
-        font-size: 15px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         padding-bottom: 3%;
     }
 
+    /*Styling af Hotel Alien overskrift*/
     .forside h1{
         font-size: 30px;
         font-family: century;
@@ -400,12 +377,14 @@
         text-transform: uppercase;
     }
 
+    /*Styling af information teksten om årgang, servise og kunde*/
     .forside h3{
         font-size: 15px;
         line-height: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
    
+    /*Styling af kort infotekst af hotel Alien - Margin top får teksten længe op mod h3*/
     .forside p{
         font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
@@ -415,25 +394,28 @@
         margin-top: -3%;
     }
 
+    /*Start på ny section om opgave beskrivelse*/
     .beskrivelse{
         text-align: center;
-        margin-top: -12%;
+        margin-top: -10%;
     }
 
+    /*Styling af overskriften "Processen" margin bottom er endnu engang afstand mellem overskriften og teksten nedenunder*/
     .beskrivelse h1{
         font-size: 25px;
         font-family: century;
         color: #CA900A;
         text-transform: uppercase;
         margin-bottom: 3%;
-
     }
 
+    /*Styling af underoverskrifterne*/
     .beskrivelse h2{
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /*Styling af brødteksten margin og padding indsnævre teksten og margin top og bottom er afstanden mellem overskrifterne og brødteksten*/
     .beskrivelse p{
         font-size: 17px;
         line-height: 25px;
@@ -444,7 +426,7 @@
         margin-bottom: -2%;
     }
 
-
+    /*Start på styling er ny section med processen - margin top endnu engang så teksten komme tættere på teksten overfor*/
     .udvikling{
         text-align: center;
         margin-top: -10%;
@@ -456,12 +438,14 @@
         margin-top: -10%;
     }
     
+    /*Styling af under overskrifterne*/
     .udvikling h2{
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: -5%;
     }
 
+    /*Styling af brødtekst*/
     .udvikling p{
         font-size: 17px;
         line-height: 25px;
@@ -474,10 +458,10 @@
 
     /* margin top rykker billedet længere op mod teksten, uden den var afstanden meget stor*/
     .fotoshop{
-        width: 50%;
-        
+        width: 50%; 
     }
 
+    /*Styling af Hotel Alien logo - margin top og bottom endnu engang så teksterne ikke er langt fra logoet*/
     .logo{
         width: 50%;
         margin-top: -10%;
@@ -485,10 +469,12 @@
         margin-left: 5%;
     }
 
+    /*styling på størrelse af billederne fra den side jeg har kodet - billeder af room siden*/
     .udvikling img{
         width: 40%;
     }
 
+    /*Styling af deres placering, flex så de står ved siden af hinanden. - Padding bootom så knappen nedne under er med lidt afstand*/
     .room{
         display: flex;
         flex-wrap: wrap;
@@ -496,49 +482,29 @@
         padding-bottom: 3%;
     }
 
+    /*Styling af knap som viser hotel alien hjemmesiden. padding selv knappens højde og bredde. margin bottom så der er afstand mellem knap og footer. 
+    Text decoration er non så teksten i knappen ikke ligner et link med en streg under. Display så knappen er på sin egen linje og ikke overlapper de andre ting*/
     .se-her{
         display: inline-block;
         text-decoration: none;
         color:#000000;
-        border: 3px solid #CA900A;
         background-color: #CA900A;
         padding: 10px 20px;
         font-size: 15px;
-        position: relative;
-        cursor: pointer;
         margin-bottom: 2%;
     }
 
 
 /*Start af styling for Happy Feet siden*/
 
-    .happy{
-        min-height: 85vh;
-        width: 100%;
-        background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(happyforside.jpeg)
-        ;
-        background-position: center;
-        background-size: cover;
-    }
-
-    /*Styling af overskriftens placering ovenpå cover billedet*/
-    .happyh1{
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform:translate(-50%,-50%) ;
+    /*Styling af overskriften "Happy Feet*/
+    .happyfeet h1{
         text-align: center;
-    }
-
-    /*Styling af Happy Feet, font family, skriftstørrelse mm.*/
-    .happyh1 {
         font-size: 30px;
-        text-transform: uppercase;
-        margin: 5px 0 15px ;
-        color: #CA900A;
         font-family: century;
+        text-transform: uppercase;
+        color:#CA900A;
     }
-
 
     /*Stylingen af de 3 tekstbox under billedet - Årgang, service og kunde teksten.*/
     .info{ 
