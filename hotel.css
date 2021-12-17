@@ -429,7 +429,52 @@
     }
 
 
+    /*Start på styling af fotograferings side*/
+
+    .ugur-foto{
+        text-align: center;
+    }
+
+    .ugur-foto h1{
+        font-size: 20px;
+        font-family: century;
+        color: #CA900A;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .ugur-foto h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .ugur-foto img{
+        height: 180px;
+        width: 135px;
+    }
+
+    /*bondegård*/
+    .bondegård{
+        text-align: center;
+    }
+
+    .bondegård h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .bondegård img{
+        height: 180px;
+        width: 135px;
+    }
+
 }
+
+
 
 
 @media screen and (max-width: 2050px) and (min-width:481px) {
