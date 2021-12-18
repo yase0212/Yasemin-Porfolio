@@ -37,7 +37,7 @@
   .nav-links ul li a{
     color:#CA900A;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
@@ -65,7 +65,7 @@
     text-align: center;
 }
 .text-box h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     margin: 5px 0 15px ;
     color: #E0D9B8;
@@ -74,7 +74,7 @@
 .text-box p{
 
     margin: 5px 0 15px;
-    font-size: 30px;
+    font-size: 25px;
     color:#E0D9B8;
     font-family: century;
 }
@@ -89,7 +89,7 @@
 }
 
 .om-mig h1 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px 0 15px ;
   color: #000000;
   font-family: century;
@@ -98,12 +98,15 @@
 
 .mig{
 margin-top: 5px;
+width: 65%;
 
 }
 .om-mig p{
   margin: 5px 0 15px;
-  font-size: 20px;
+  font-size: 18px;
   color:#000000;
+  
+
 }
 
   /* Styling af "hvad jeg tilbyder" section*/
@@ -117,15 +120,15 @@ margin-top: 5px;
   }
 
   #tilbyder h1{
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: century;
   }
   
   /*styling a boksene, hvor store de skal være, hvilke farve, hvor de skal placeres.*/
   .box1{
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     margin: 20px;
     align-items: center;
     padding: 5px;
@@ -133,8 +136,8 @@ margin-top: 5px;
    }
 
   .box2{
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     margin: 20px;
     align-items: center;
     padding: 5px;
@@ -142,8 +145,8 @@ margin-top: 5px;
       }
 
   .box3{
-     width: 250px;
-     height: 250px;
+     width: 210px;
+     height: 210px;
      margin: 20px;
      align-items: center;
      padding: 5px;
@@ -151,8 +154,8 @@ margin-top: 5px;
         }
 
   .box4{
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     margin: 20px;
     align-items: center;
     padding: 5px;
@@ -168,15 +171,15 @@ margin-top: 5px;
 
 /*styler position af section*/
   .projekter h1{
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: century; 
   }
 
-    .video{
-      width: 400px;
-      height: 200px;
-    }
+  .projekter img{
+    height: 200px;
+    width: 300px;
+  }
 
     /*styling af mine færdigheder section. Dens placering og skrift styling*/
  .færdigheder{
@@ -186,7 +189,7 @@ margin-top: 5px;
 
     .færdigheder h1{
       text-align: center;
-      font-size: 30px;
+      font-size: 25px;
       font-family: century;
       text-transform: uppercase;
     }
@@ -197,13 +200,14 @@ margin-top: 5px;
       text-transform: uppercase;
     }
 
+
         /*styling af box med stjerner i.*/
-      .kompetencebillede{
+      .færdighedboks{
         background-color: #CA900A;
-        margin: 20px;
-       padding: 20px;
-       margin-top: 10px;
-       margin-bottom: 10px;
+        margin: 15px;
+       padding: 15px;
+       margin-top: 5px;
+       margin-bottom: 5px;
       }
     
 
@@ -215,13 +219,13 @@ margin-top: 5px;
   }
 
   .kontakt h1{
-     font-size: 25px;
+     font-size: 20px;
      font-family: century;
      text-transform: uppercase;
   }
 
   .kontakt p{
-    font-size: 17px;
+    font-size: 15px;
   }
 
 .footer{
@@ -229,6 +233,7 @@ margin-top: 5px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 10%;
 
 }
 
@@ -239,14 +244,24 @@ margin-top: 5px;
 
 ul{
   list-style-type: none;
-  font-size: 17px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
 li{
   margin-top: 10px;
-
 }
+
+.se-her{
+  display: inline-block;
+  text-decoration: none;
+  color:#000000;
+  background-color: #CA900A;
+  padding: 5px 15px;
+  font-size: 15px;
+  position: relative;
+}
+
 }
 
 @media screen and (max-width: 1080px) and (min-width:481px) {
@@ -394,7 +409,7 @@ width: 450px;
 
  /*styling a boksene, hvor store de skal være, hvilke farve, hvor de skal placeres.*/
  .box1{
-  width: 220px;
+  width: 250px;
   height: 250px;
   margin: 20px;
   align-items: center;
@@ -403,7 +418,7 @@ width: 450px;
  }
 
 .box2{
-  width: 220px;
+  width: 250px;
   height: 250px;
   margin: 20px;
   align-items: center;
@@ -412,7 +427,7 @@ width: 450px;
     }
 
 .box3{
-   width: 220px;
+   width: 250px;
    height: 250px;
    margin: 20px;
    align-items: center;
@@ -421,7 +436,7 @@ width: 450px;
       }
 
 .box4{
-  width: 220px;
+  width: 250px;
   height: 250px;
   margin: 20px;
   align-items: center;
@@ -447,9 +462,9 @@ font-family: century;
 }
 
 .projekter img{
-  width: 850px;
-  height: 450px;
+  width: 60%;
 }
+
 
 /*styling af kompetencer section. Dens placering og skrift styling*/
 
@@ -471,7 +486,7 @@ font-family: century;
   font-size: 30px;
   text-transform: uppercase;
 }
-  .kompetencebillede{
+  .færdighedboks{
     background-color: #CA900A;
     margin: 20px;
     padding: 20px;
@@ -520,7 +535,16 @@ text-transform: uppercase;
 
 li{
 margin-top: 20px;
+}
 
+.se-her{
+  display: inline-block;
+  text-decoration: none;
+  color:#000000;
+  background-color: #CA900A;
+  padding: 5px 15px;
+  font-size: 15px;
+  position: relative;
 }
 
 }
@@ -625,7 +649,7 @@ width: 100%;
 }
 
 .om-mig h1 {
-  font-size: 45px;
+  font-size: 30px;
   margin: 5px 0 15px ;
   color: #000000;
   text-transform: uppercase;
@@ -639,15 +663,93 @@ width: 100%;
 margin-top: 5px;
 width: 400px;
 margin-bottom: 15px;
+padding-left: 10%;
 }
 
 .om-mig p{
   margin: 5px 0 15px;
-  font-size: 25px;
+  font-size: 20px;
   color:#000000;
   text-align: center;
   line-height: 35px;
+  padding-right: 10%;
 }
+
+.se-her{
+  display: inline-block;
+  text-decoration: none;
+  color:#000000;
+  background-color: #CA900A;
+  padding: 5px 15px;
+  font-size: 15px;
+  position: relative;
+}
+
+/*----arbejde section--------------*/
+
+#arbejde{
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 5%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#arbejde h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: century;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#arbejde h2{
+  font-size: 25px;
+  color: #E0D9B8;
+}
+
+#arbejde p{
+  font-size: 20px;
+  color: #E0D9B8;
+}
+
+/*styling a boksene, hvor store de skal være, hvilke farve, hvor de skal placeres.*/
+.arbejde1{
+width: 350px;
+height: 400px;
+margin: 20px;
+align-items: center;
+padding: 5px;
+background-color: #CA900A;
+}
+
+.arbejde2{
+width: 350px;
+height: 400px;
+margin: 20px;
+align-items: center;
+padding: 5px;
+background-color: #CA900A;
+  }
+
+.arbejde3{
+ width: 350px;
+ height: 400px;
+ margin: 20px;
+ align-items: center;
+ padding: 5px;
+ background-color: #CA900A;
+    }
+
+
 
 
   /* Styling af "hvad jeg tilbyder" section*/
@@ -667,7 +769,7 @@ margin-bottom: 15px;
   }
 
   #tilbyder h1{
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: century;
     display: flex;
@@ -676,19 +778,19 @@ margin-bottom: 15px;
   }
 
   #tilbyder h2{
-    font-size: 3opx;
+    font-size: 25px;
     color: #E0D9B8;
   }
 
   #tilbyder p{
-    font-size: 25px;
+    font-size: 20px;
     color: #E0D9B8;
   }
 
  /*styling a boksene, hvor store de skal være, hvilke farve, hvor de skal placeres.*/
  .box1{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   margin: 20px;
   align-items: center;
   padding: 5px;
@@ -696,8 +798,8 @@ margin-bottom: 15px;
  }
 
 .box2{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   margin: 20px;
   align-items: center;
   padding: 5px;
@@ -705,8 +807,8 @@ margin-bottom: 15px;
     }
 
 .box3{
-   width: 300px;
-   height: 300px;
+   width: 270px;
+   height: 270px;
    margin: 20px;
    align-items: center;
    padding: 5px;
@@ -714,8 +816,8 @@ margin-bottom: 15px;
       }
 
 .box4{
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   margin: 20px;
   align-items: center;
   padding: 5px;
@@ -723,7 +825,6 @@ margin-bottom: 15px;
      }
 
 
- 
 /*styling af projekt section.*/
 .projekter{
   display: flex;
@@ -734,7 +835,7 @@ margin-bottom: 15px;
 }
 /*styler position af section*/
 .projekter h1{
-font-size: 40px;
+font-size: 30px;
 text-transform: uppercase;
 font-family: century;
 width: 100%;
@@ -742,7 +843,7 @@ text-align: center;
 }
 
 .projekter h2{
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -759,7 +860,7 @@ text-align: center;
 
 .færdigheder h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     font-family: century;
 }
@@ -769,7 +870,7 @@ text-align: center;
   font-size: 25px;
   text-transform: uppercase;
 }
-  .kompetencebillede{
+  .færdighedboks{
     background-color: #CA900A;
     margin: 10%;
     padding: 20px;
@@ -787,13 +888,13 @@ text-align: center;
 }
 
 .kontakt h1{
-  font-size: 45px;
+  font-size: 40px;
   font-family: century;
   text-transform: uppercase;
 }
 
 .kontakt p{
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
