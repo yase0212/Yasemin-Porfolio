@@ -3,8 +3,9 @@
       background-color: #F3EFE9;
     }
     
+    /*Til styling af navigationsbar der brugt hjælp fra en video på youtube https://www.youtube.com/watch?v=oYRda7UtuhA*/
     /*----styling af navigationsbar----*/
-     nav{
+    nav{
         display: flex;
         padding: 1% 3%;
         justify-content:space-between ;
@@ -203,6 +204,7 @@
         text-align: center;
     }
 
+    /*margin bottom så teksten under kommer tættere på overskriften*/
     .happy-beskrivelse h1{
         font-size: 20px;
         font-family: century;
@@ -223,12 +225,14 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /*sørger for at billederne flexer*/
     .billeder{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
+    /*Styling på billederne af tlf, ipad og mac, de har alle margin top og bottom så afstanden mellem dem er det samme*/
     .tlf{
         width: 50%;
         margin-bottom: -2%;
@@ -249,6 +253,7 @@
 
     /*start på styling af proces section til happy feet*/
 
+    /*Sørger for alt styling i denne section er i center*/
     .happy-udvikling{
         text-align: center;
     }
@@ -264,6 +269,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    /*Havde to billeder af den side jeg havde kodet, derfor blev billederne kaldt en og to.*/
     .webshopen{
         width: 60%;
         margin-bottom: 5px;
@@ -273,33 +279,14 @@
         width: 60%;
     }
 
+    /*gør at billederne flexer og kan stå ved siden af hinanden*/
     .webshop{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
-    footer{
-        background-color: #2E2D29;
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-  
-    .footer a{
-        display: inline;
-        color: #E0D9B8;
-    }
-  
-     ul{
-        list-style-type: none;
-        font-size: 12px;
-        text-transform: uppercase;
-    }
-  
-    li{
-        margin-top: 10px;
-    }
+    
 
 
     /*Start på styling af video side*/
@@ -359,8 +346,7 @@
     }
 
    
-/*start på styling af proces section til happy feet*/
-
+    /*start på styling af proces section til happy feet*/
     .video-udvikling{
         text-align: center;
     }
@@ -377,32 +363,44 @@
     }
 
    /*Start på styling at kontakt side*/
+
+   /*Styling af kontakt section*/
+    .kontaktmig{
+        text-align: center;
+    }
+
+    .kontaktmig h1{
+        font-size: 18px;
+        color: #CA900A;
+        text-transform: uppercase;
+        font-family: century;
+        margin-bottom: -5%;
+    }
+
+    .kontaktmig p{
+        font-size: 13px;
+        font-family: century;
+        margin: 10%;
+        margin-bottom: 15px;
+    }
+
    .kontakt{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
     
-
+    /*Styling af kontakt boks*/
     .kontakt-box{
-        width: 400px;
+        width: 300px;
         text-align: center;
         border: 2px solid #CA900A;
         margin-bottom: 10%;
     }
 
-    .kontakt h1{
-        width: 100%;
-        font-size: 30px;
-        margin-bottom: 5%;
-        font-family: century;
-        text-align: center;
-        color: #CA900A;
-        text-transform: uppercase;
-    }
-
+    /*Styling af felterne inden i kontakt boksen*/
     .skriv{
-        width: 350px;
+        width: 250px;
         height: 40px;
         margin-top: 20px;
         padding-left: 10px;
@@ -411,11 +409,13 @@
         border-radius: 10px;
     }
 
+    /*styling af skriv besked her feltet*/
     .skrivher{
         height: 70px;
         padding-top: 10px;
     }
 
+    /*styling af send besked knappen*/
     .knap{
         border-radius: 5px;
         color: #CA900A;
@@ -427,66 +427,39 @@
         cursor: pointer;
     }
 
-
-    /*Start på styling af fotograferings side*/
-
-    .ugur-foto{
+    /*styling af footer*/
+    footer{
+        background-color: #2E2D29;
         text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-
-    .ugur-foto h1{
-        font-size: 20px;
-        font-family: century;
-        color: #CA900A;
+  
+    .footer a{
+        display: inline;
+        color: #E0D9B8;
+    }
+  
+    ul{
+        list-style-type: none;
+        font-size: 12px;
         text-transform: uppercase;
-        width: 100%;
     }
-
-    .ugur-foto h2{
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 5%;
-        padding-bottom: 2%;
-    }
-
-    .ugur-foto img{
-        height: 180px;
-        width: 135px;
-    }
-
-    /*bondegård*/
-    .bondegård{
-        text-align: center;
-    }
-
-    .bondegård h2{
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 5%;
-        padding-bottom: 2%;
-    }
-
-    .bondegård img{
-        height: 180px;
-        width: 135px;
+  
+    li{
+        margin-top: 10px;
     }
 
 }
 
-
-
-
-
-
-
+/*Start på styling af hotel Alien på desktop version*/
 @media screen and (max-width: 2050px) and (min-width:481px) {
     body {
       background-color: #F3EFE9;
     }
 
-    /*Start på styling af hotel Alien på desktop version*/
-
-     /*----styling af navigationsbar----*/
+    /*Til styling af navigationsbar der brugt hjælp fra en video på youtube https://www.youtube.com/watch?v=oYRda7UtuhA*/
+    /*----styling af navigationsbar----*/
     nav{
         display: flex;
         padding: 1% 3%;
@@ -668,7 +641,7 @@
     }
 
 
-/*Start af styling for Happy Feet siden*/
+    /*Start af styling for Happy Feet siden*/
 
     /*Styling af overskriften "Happy Feet*/
     .happyfeet h1{
@@ -685,7 +658,6 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    
 
     /*Start på opgave beskrivelse section*/
     .happy-beskrivelse{
@@ -714,6 +686,7 @@
         margin: -3%;
     }
 
+    /*styling af billederne i beskrivelse section*/
     .billeder{
         display: flex;
         flex-wrap: wrap;
@@ -783,32 +756,6 @@
         padding-bottom: 3%;
     }
 
-    .footer{
-        background-color: #2E2D29;
-        text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    
-    .footer a{
-        display: inline;
-        color: #E0D9B8;
-    }
-    
-    .footer ul{
-        list-style-type: none;
-        font-size: 15px;
-        text-transform: uppercase;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-    
-    li{
-        margin-top: 10px;
-    }
-
-    
     /*Start på styling af video side*/
     .video{
         text-align: center;
@@ -835,7 +782,7 @@
     }
 
 
-/*Start på opgave beskrivelse section*/
+    /*Start på opgave beskrivelse section*/
     .video-beskrivelse{
         text-align: center;
     }
@@ -868,7 +815,6 @@
 
    
     /*start på styling af proces section til happy feet*/
-
     .video-udvikling{
         text-align: center;
     }
@@ -886,6 +832,24 @@
 
     /*Start på styling at kontakt side*/
 
+    /*Styling af kontakt section*/
+    .kontaktmig{
+        text-align: center;
+    }
+
+    .kontaktmig h1{
+        font-size: 35px;
+        color: #CA900A;
+        text-transform: uppercase;
+        font-family: century;
+    }
+
+    .kontaktmig p{
+        font-size: 18px;
+        font-family: century;
+        margin: 3%;
+    }
+
     .kontakt{
         display: flex;
         flex-wrap: wrap;
@@ -893,7 +857,7 @@
     }
    
     .kontakt-box{
-        width: 600px;
+        width: 750px;
         text-align: center;
         border: 2px solid #CA900A;
         margin-bottom: 5%;
@@ -909,28 +873,30 @@
         margin-bottom: 3%;
     }
 
+    /*Sørger for breden i selve kassen så felterne står lige under hinanden og ikke er forsukt fra hinanden i kassen*/
     .form{
         margin: 35px;
     }
 
-
+    /*styling på felterne i kontakt kassen*/
     .skriv{
-        width: 500px;
+        width: 650px;
         height: 40px;
         margin-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
         border: 1px solid #CA900A;
-        border-radius: 14px;
+        border-radius: 10px;
         outline: none;
-
     }
 
+    /*styling for feltet hvor man kan skrive sin besked*/
     .skrivher{
         height: 150px;
         padding-top: 10px;
     }
 
+    /*styling på se besked knappen. border radius er hvor rund kassen skal være*/ 
     .knap{
         border-radius: 10px;
         color: #CA900A;
@@ -940,13 +906,33 @@
         border: 1px solid #CA900A;
         margin-bottom: 2%;
         cursor: pointer;
-        
     }
 
-
-
-
-
+    /*Styling af footer*/
+    .footer{
+        background-color: #2E2D29;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .footer a{
+        display: inline;
+        color: #E0D9B8;
+    }
+    
+    .footer ul{
+        list-style-type: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    li{
+        margin-top: 10px;
+    }
 
 }
 

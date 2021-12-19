@@ -2,256 +2,323 @@
     body {
       background-color: #F3EFE9;
     }
+    /*Til styling af navigationsbar og baggrundsbillede er der brugt hjælp fra en video på youtube https://www.youtube.com/watch?v=oYRda7UtuhA*/
+    /*----styling af navigationsbar----*/
+    nav{
+        display: flex;
+        padding: 1% 3%;
+        justify-content:space-between ;
+        align-items: center ;
+    }
 
-/*----styling af navigationsbar----*/
-nav{
-    display: flex;
-    padding: 1% 3%;
-    justify-content:space-between ;
-    align-items: center ;
-}
+    .nav-links {
+        flex: 1;
+        text-align:center; 
+    }   
 
-.nav-links {
-    flex: 1;
-    text-align:center; 
-}   
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px 7px ;
+        position: center;
+    }
 
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 5px 7px ;
-    position: center;
-}
+    .nav-links ul li a{
+        color:#CA900A;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+    }
 
-.nav-links ul li a{
-    color:#CA900A;
-    text-decoration: none;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-}
+    .nav-links ul li::after{
+        content:'';
+        width: 0%;
+        height: 2px;
+        background: #CA900A;
+        display: block;
+        margin: auto;
+        transition: o,1s;
+    }
 
-.nav-links ul li::after{
-    content:'';
-    width: 0%;
-    height: 2px;
-    background: #CA900A;
-    display: block;
-    margin: auto;
-    transition: o,1s;
-}
-
-.nav-links ul li:hover::after{
-    width: 100%;
-}
-
-
-/*----styling af 1 sections baggrundsbillede----*/
-header{
-    min-height: 100vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(forside.jpg)
-    ;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-/*----styling af 1 section, teksten med mit navn, multimediedesigner----*/
-.navn{
-    width: 90%;
-    color:white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%) ;
-    text-align: center;
-}
-
-.navn h1 {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 5px 0 15px ;
-    color: #E0D9B8;
-    font-family: century;
-}
-
-.navn p{
-    margin: 5px 0 15px;
-    font-size: 25px;
-    color:#E0D9B8;
-    font-family: century;
-}
-
-
-/*----styling af om mig section----*/
-.om-mig{
-    width: 95%;
-    margin: auto;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.om-mig h1 {
-    font-size: 25px;
-    margin: 5px 0 15px ;
-    color: #CA900A;
-    font-family: century;
-    text-transform: uppercase;
-    margin-bottom: 5%;
-}
-
-.mig{
-    margin-top: 5px;
-    width: 70%;
-    margin-bottom: 10px;
-} 
-
-.om-mig p{
-    margin: 5px 0 15px;
-    font-size: 17px;
-    color:#000000;
-    font-family: century;
-    line-height: 30px;
-    margin: 10px;
-  }
-
-/*Styling af arbejde section*/
-#arbejde{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;    }
-
-#arbejde h1{
-    font-family: century;
-    font-size: 25px;
-    color: #CA900A;
-    text-transform: uppercase;
-    margin-bottom: 10%;
-}
-
-#arbejde h2{
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #E0D9B8;
-    text-transform: uppercase;
-    margin-top: 10%;
-}
-
-#arbejde p{
-    font-size: 16px;
-    font-family: century;
-    color: #E0D9B8;
-    line-height: 23px;
-    margin: 15px;
-}
-
-.arbejde1{
-    width: 250px;
-    height: 350px;
-    background-color: #CA900A;
-    margin-bottom: 5%;
-}
-
-.arbejde2{
-    width: 250px;
-    height: 350px;
-    background-color: #CA900A;
-    margin-bottom: 5%;
-}
-
-.arbejde3{
-    width: 250px;
-    height: 350px;
-    background-color: #CA900A;
-    margin-bottom: 5%;
-}
-
-/*Start på styling af projekter section*/
-.projekter{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.projekter h1{
-    font-size: 25px;
-    font-family: century;
-    text-transform: uppercase;
-    color: #CA900A;
-}
-
-.projekter h2{
-    font-size: 20px;
-    font-family: century;
-}
-
-.projekter img{
-    width: 85%;
-}
-
-.færdigheder{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.færdigheder h1{
-   font-size: 25px;
-   color: #CA900A;
-   text-transform: uppercase;
-   font-family: century;
-   text-align: center;
-   width: 100%;
-}
-
-.færdigheder h3{
-   font-size: 17px;
-   text-transform: uppercase;
-   color: #E0D9B8;
-   font-family: century;
-   margin: 5%;
-   }
-
-.færdighedboks{
-    width: 310px;
-    height: 200px;
-    background-color: #CA900A;
-}
-
-.kontaktmig{
-    text-align: center;
-}
-
-.kontaktmig h1{
-   font-size: 25px;
-   color: #CA900A;
-   text-transform: uppercase;
-   font-family: century;
-}
-
-.kontaktmig h2{
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #E0D9B8;
-    font-family: century;
-    margin: 5%;
+    .nav-links ul li:hover::after{
+        width: 100%;
     }
 
 
+    /*----styling af 1 sections baggrundsbillede----*/
+    header{
+        min-height: 100vh;
+        width: 100%;
+        background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(forside.jpg)
+        ;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    /*----styling af 1 section, teksten med mit navn, multimediedesigner----*/
+    .navn{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%) ;
+        text-align: center;
+    }
+
+    .navn h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 5px 0 15px ;
+        color: #E0D9B8;
+        font-family: century;
+    }
+
+    .navn p{
+        margin: 5px 0 15px;
+        font-size: 25px;
+        color:#E0D9B8;
+        font-family: century;
+    }
+
+
+    /*----styling af om mig section----*/
+    .om-mig{
+        width: 95%;
+        margin: auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .om-mig h1 {
+        font-size: 25px;
+        margin: 5px 0 15px ;
+        color: #CA900A;
+        font-family: century;
+        text-transform: uppercase;
+        margin-bottom: 5%;
+    }      
+
+    .mig{
+        margin-top: 5px;
+        width: 70%;
+        margin-bottom: 10px;
+    } 
+
+    .om-mig p{
+        margin: 5px 0 15px;
+        font-size: 17px;
+        color:#000000;
+        font-family: century;
+        line-height: 30px;
+        margin: 10px;
+    }
+
+    /*display - Inline-block= Knappen er på sin egen linje og ikke på billederne. - Text decoration fjerner stregen fra se her.*/
+    .se-her{
+        display: inline-block;
+        text-decoration: none;
+        color:#000000;
+        background-color: #CA900A;
+        padding: 12px 20px;
+        font-size: 15px;
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+    /*Styling af arbejde section*/
+    #arbejde{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;   
+    }
+
+    #arbejde h1{
+        font-family: century;
+        font-size: 25px;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 10%;
+    }
+
+    #arbejde h2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #E0D9B8;
+        text-transform: uppercase;
+        margin-top: 10%;
+    }
+
+    #arbejde p{
+        font-size: 14px;
+        font-family: century;
+        color: #E0D9B8;
+        line-height: 23px;
+        margin: 15px;
+    }
+
+    .arbejde1{
+        width: 250px;
+        height: 350px;
+        background-color: #CA900A;
+        margin-bottom: 5%;
+    }
+
+    .arbejde2{
+        width: 250px;
+        height: 350px;
+        background-color: #CA900A;
+        margin-bottom: 5%;
+    }   
+
+    .arbejde3{
+        width: 250px;
+        height: 350px;
+        background-color: #CA900A;
+        margin-bottom: 5%;
+    }
+
+    /*Start på styling af projekter section*/
+    .projekter{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .projekter h1{
+        font-size: 25px;
+        font-family: century;
+        text-transform: uppercase;
+        color: #CA900A;
+    }
+
+    .projekter h2{
+        font-size: 20px;
+        font-family: century;
+    }
+
+    .projekter img{
+        width: 85%;
+    }
+
+    .færdigheder{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10%;
+    }
+
+    .færdigheder h1{
+        font-size: 25px;
+        color: #CA900A;
+        text-transform: uppercase;
+        font-family: century;
+        text-align: center;
+        width: 100%;
+    }
+
+    .færdigheder h3{
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #E0D9B8;
+        font-family: century;
+        margin: 5%;
+    }
+
+    .færdighedboks{
+        width: 300px;
+        height: 180px;
+        background-color: #CA900A;
+    }
+
+    /*Stlyng af kontakt section*/
+    .kontaktmig{
+        text-align: center;
+    }
+
+    .kontaktmig h1{
+        font-size: 20px;
+        color: #CA900A;
+        text-transform: uppercase;
+        font-family: century;
+    }
+
+    .kontaktmig p{
+        font-size: 12px;
+        font-family: century;
+        margin: 5%;
+    }
+
+    /*Start på styling at kontakt side - boksen hvor man kan skrive*/
+    .kontakt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    /*Styling af selve kassen*/
+    .kontakt-box{
+        width: 300px;
+        text-align: center;
+        border: 2px solid #CA900A;
+        margin-bottom: 10%;
+    }
+
+    .kontakt h1{
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 5%;
+        font-family: century;
+        text-align: center;
+        color: #CA900A;
+        text-transform: uppercase;
+    }
+
+    /*Styling af de felter inden i kassen hvor man kan skrive*/
+    .skriv{
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #CA900A;
+        border-radius: 10px;
+    }
+
+    /*Styling af feltet hvor man kan skrive sin besked*/
+    .skrivher{
+        height: 70px;
+        padding-top: 10px;
+    }
+
+    /*Styling af send besked knappen*/
+    .knap{
+        border-radius: 5px;
+        color: #CA900A;
+        margin-top: 10px;
+        padding: 7px;
+        font-size: 12px;
+        border: 1px solid #CA900A;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+
+    /*Styling af footer*/
     footer{
         background-color: #2E2D29;
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-  
+    
     .footer a{
         display: inline;
         color: #E0D9B8;
     }
-  
+    
+    /*styling af linksne*/
      ul{
         list-style-type: none;
         font-size: 12px;
@@ -270,9 +337,8 @@ header{
       background-color: #F3EFE9;
     }
 
-    /*Start på styling af hotel Alien på desktop version*/
-
-     /*----styling af navigationsbar----*/
+    /*Til styling af navigationsbar og baggrundsbillede er der brugt hjælp fra en video på youtube https://www.youtube.com/watch?v=oYRda7UtuhA*/
+    /*----styling af navigationsbar----*/
     nav{
         display: flex;
         padding: 1% 3%;
@@ -313,8 +379,8 @@ header{
         width: 100%;
     }
 
-     /*----styling af 1 sections baggrundsbillede----*/
-     header{
+    /*----styling af 1 sections baggrundsbillede----*/
+    header{
         min-height: 100vh;
         width: 100%;
         background-image:linear-gradient(rgba(4, 9, 30, 0.774),rgba(4, 9, 30, 0.623)), url(forside.jpg)
@@ -354,7 +420,6 @@ header{
     /*----styling af om mig section----*/
     .om-mig{
         text-align: center;
-        padding-bottom: 5%;
     }
         
   
@@ -368,12 +433,14 @@ header{
         width: 100%;
         margin-top: 5%;
     }
-  
-    .mig1{display:flex;
+    
+    .mig1{
+        display:flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
     
+    /*Styling - billedet af mig*/
     .mig{
         margin-top: 5px;
         width: 430px;
@@ -395,13 +462,26 @@ header{
 
     }
 
-    /*Styling af arbejde section*/
+    /*Styling af knap som viser hotel alien hjemmesiden. padding selv knappens højde og bredde. margin bottom så der er afstand mellem knap og footer. 
+    Text decoration er non så teksten i knappen ikke ligner et link med en streg under. Display så knappen er på sin egen linje og ikke overlapper de andre ting*/
+    .se-her{
+        display: inline-block;
+        text-decoration: none;
+        color:#000000;
+        background-color: #CA900A;
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+
+    /*Styling af arbejde section - sectionen hvor jeg skriver om min måde af arbejde på*/
     #arbejde{
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;   
-     }
+        justify-content: space-evenly;
+        margin: 5%;
+    }
 
     #arbejde h1{
         font-family: century;
@@ -428,25 +508,26 @@ header{
         margin: 15px;
     }
 
+    /*Styling af kasserne*/
     .arbejde1{
         width: 300px;
         height: 450px;
         background-color: #CA900A;
-        margin-bottom: 5%;
+        margin-bottom: -5%;
     }
 
     .arbejde2{
         width: 300px;
         height: 450px;
         background-color: #CA900A;
-        margin-bottom: 5%;
+        margin-bottom: -5%;
     }
 
     .arbejde3{
         width: 300px;
         height: 450px;
         background-color: #CA900A;
-        margin-bottom: 5%;
+        margin-bottom: -5%;
     }
 
     /*Start på styling af projekter section*/
@@ -455,6 +536,7 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        padding: 7%;
     }
 
     .projekter h1{
@@ -470,43 +552,48 @@ header{
         font-family: century;
     }
 
+    /*Styling på de to første billeder af hotel alien og happyfeet*/
     .projektbillede{
-        width: 490px;
+        width: 420px;
         height: 280px;
+        margin-bottom: -10%;
     }
 
+    /*styling på billede af video*/
     .videobillede{
-        width: 460px;
+        width: 410px;
         height: 280px;
+        margin-bottom: -10%;
 
     }
 
-    /*færdgigheder section*/
+    /*styling af section med min færdgigheder*/
     .færdigheder{
         margin-top: 50px;
         margin-bottom: 50px;
-      }
+    }
       
-      .færdigheder h1{
+    .færdigheder h1{
           text-align: center;
           font-size: 30px;
           text-transform: uppercase;
           font-family: century;
           color: #CA900A;
-      }
+    }
       
-      .færdigheder h3{
+    .færdigheder h3{
         color: #E0D9B8;
         font-size: 20px;
         text-transform: uppercase;
-      }
-        .færdighedboks{
+    }
+        
+    .færdighedboks{
           background-color: #CA900A;
-          margin: 10%;
+          margin: 15%;
           padding: 20px;
           margin-top: 10px;
           margin-bottom: 5%;
-        }
+    }
 
     /*kontakt mig section*/
     .kontaktmig{
@@ -527,30 +614,88 @@ header{
         line-height: 40px;
         }
 
-        .footer{
-            background-color: #2E2D29;
-            text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
+    /*Start på styling at kontakt boksen*/
+    .kontakt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+   
+    .kontakt-box{
+        width: 700px;
+        text-align: center;
+        border: 2px solid #CA900A;
+        margin-bottom: 5%;
+    }
+    
+    .kontakt h1{
+        width: 100%;
+        font-size: 30px;
+        font-family: century;
+        text-align: center;
+        color: #CA900A;
+        text-transform: uppercase;
+        margin-bottom: 3%;
+    }
+
+    .form{
+        margin: 35px;
+    }
+
+
+    .skriv{
+        width: 650px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #CA900A;
+        border-radius: 14px;
+        outline: none;
+
+    }
+
+    .skrivher{
+        height: 150px;
+        padding-top: 10px;
+    }
+
+    .knap{
+        border-radius: 10px;
+        color: #CA900A;
+        margin-top: 18px;
+        padding: 10px;
+        font-size: 15px;
+        border: 1px solid #CA900A;
+        margin-bottom: 2%;
+        cursor: pointer;
         
-        .footer a{
-            display: inline;
-            color: #E0D9B8;
-        }
+    }
+
+    .footer{
+        background-color: #2E2D29;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
         
-        .footer ul{
-            list-style-type: none;
-            font-size: 15px;
-            text-transform: uppercase;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
+    .footer a{
+        display: inline;
+        color: #E0D9B8;
+    }
         
-        li{
-            margin-top: 10px;
-        }
+    .footer ul{
+        list-style-type: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+        
+    li{
+        margin-top: 10px;
+    }
     
 
 }
