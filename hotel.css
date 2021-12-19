@@ -46,7 +46,9 @@
         width: 100%;
     }
 
-    
+    .cv{
+        width: 100%;
+    }
     /*Start på styling af Hotel Alien side*/
 
     /*styling af hele forside section, alt indholdet skal stå i midten og dens afstand mellem næste section skal være 10%*/
@@ -500,7 +502,7 @@
         width: 100%;
     }
 
- 
+   
     /*styling af info sectionen med årgang, kunde og service, at teksten skal flexe*/
     .forside{
         margin-bottom: 10%;
