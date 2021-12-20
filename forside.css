@@ -100,6 +100,7 @@
         margin-bottom: 5%;
     }      
 
+    /*Styling af billede af mig*/
     .mig{
         margin-top: 5px;
         width: 70%;
@@ -115,8 +116,8 @@
         margin: 10px;
     }
 
-    /*display - Inline-block= Knappen er på sin egen linje og ikke på billederne. - Text decoration fjerner stregen fra se her.*/
-    .se-her{
+    /*knap til cv - display - Inline-block= Knappen er på sin egen linje og ikke på billederne. - Text decoration fjerner stregen fra se her.*/
+    .cv{
         display: inline-block;
         text-decoration: none;
         color:#000000;
@@ -159,6 +160,7 @@
         margin: 15px;
     }
 
+    /*Styling af box med tekst i om hvordan jeg arbejder*/
     .arbejde1{
         width: 250px;
         height: 350px;
@@ -204,6 +206,7 @@
         width: 85%;
     }
 
+    /*start på styling af section med mine færdigheder*/
     .færdigheder{
         display: flex;
         flex-wrap: wrap;
@@ -227,6 +230,7 @@
         margin: 5%;
     }
 
+    /*Styling af boks med tekst og stjerne*/
     .færdighedboks{
         width: 300px;
         height: 180px;
@@ -331,7 +335,7 @@
 }
 
 
-
+/*Styling til desktop*/
 @media screen and (max-width: 2050px) and (min-width:481px) {
     body {
       background-color: #F3EFE9;
@@ -462,9 +466,8 @@
 
     }
 
-    /*Styling af knap som viser hotel alien hjemmesiden. padding selv knappens højde og bredde. margin bottom så der er afstand mellem knap og footer. 
-    Text decoration er non så teksten i knappen ikke ligner et link med en streg under. Display så knappen er på sin egen linje og ikke overlapper de andre ting*/
-    .se-her{
+    /*Knap til cv*/
+    .cv{
         display: inline-block;
         text-decoration: none;
         color:#000000;
